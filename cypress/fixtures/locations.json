@@ -1,0 +1,77 @@
+{
+    "contact": {
+        "text": "[class='info-item'] > div",
+        "email": "a[class='hotline'] > span",
+        "working_hour": "[class='info-item'] > div > b",
+        "faq": "div[class='text-center'] > a",
+        "src": {
+            "logo": "#root > header",
+            "email": "img[alt='hotline']",
+            "complaint": "img[alt='tel']",
+            "address": "img[alt='pin']",
+            "working_hour": "img[alt='time']",
+            "fax": "img[alt='fax']",
+            "faq": "img[alt='faq']"
+        }
+    },
+    "login": {
+        "id_card": "[class='form-control form-big LoNotSensitive']",
+        "submit": "[class='btn btn-pru btn-block submit bigButton']",
+        "submit_otp": "[class='btn btn-pru btn-block submit bigButton']",
+        "img": {
+            "logo": "[class='col-xs-8 text-center logo']",
+            "otp": "[class='col-sm-12 mb-15 text-center img-margin']"
+        }
+    },
+    "setting": {
+        "title": "[class='h5 d-flex justify-content-start align-items-center']",
+        "notification": "[class='switch-container']",
+        "notification_button": "input[class='switch']",
+        "logout_button": "button[class='btn btn-outline-secondary btn-block']",
+        "login_button": "button[class='btn btn-primary']",
+        "img": {
+            "logo": "#root > header",
+            "warning": "[class='d-flex flex-column justify-content-center align-items-center']"
+        }
+    },
+    "payment": {
+        "title1": "[class='payment-page'] > h1",
+        "title2": "[class='payment-page'] > h2",
+        "bubble": "div[class='policy-item '] > div > h2",
+        "remark": "div[class='policy-item '] > p",
+        "bubble1": "[data-cy='policy-0']",
+        "bubble2": "[data-cy='policy-2']",
+        "bubble3": "[data-cy='policy-3']",
+        "img": {
+            "logo": "#root > header"
+        }
+    },
+    "payment_method": {
+        "app":"div[id='app']",
+        "nav_bar": "header",
+        "title1": "[class='payment-method-page'] > h1",
+        "title2": "[class='payment-method-page'] > h2",
+        "bank_account": "div[data-cy='direct-account']",
+        "atm_title": "[class='tab-item active'] > h2",
+        "order_detail": "[class='order-detail']",
+        "order_header": "[class='order-header']",
+        "order_sub": "[class='order-subheader']",
+        "link": "div[class='bank-link']",
+        "back": "img[alt='back']",
+        "img": {
+            "atm": "[data-cy='tab-atm']",
+            "mobile": "[data-cy='tab-mobile']",
+            "internet": "[data-cy='tab-internet']",
+            "bbl_atm": "[data-cy='atm-bbl-bank']",
+            "scb_atm": "[data-cy='atm-scb-bank']",
+            "scb_mobile": "[data-cy='mobile-scb-bank']",
+            "bbl_int": "[data-cy='internet-bbl-bank']",
+            "scb_int": "[data-cy='internet-scb-bank']"
+        }
+    },
+    "payment_datils":{
+        "header": "div[class='tab-item active'] > h2",
+        "step_img": "div[class='step-item'] > img",
+        "step_txt": "div[class='step-item'] > span"
+    }
+}
