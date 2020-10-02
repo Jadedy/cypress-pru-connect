@@ -34,7 +34,7 @@ jobs:
         publish_dir: ./public
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-  	- name: Copy test execution videos
-  			run: |
-				mkdir public
-    		cp -r cypress/videos public/videos
+    - name: Copy test execution videos
+      run: |
+        mkdir public
+        cp -r cypress/videos public/videos
