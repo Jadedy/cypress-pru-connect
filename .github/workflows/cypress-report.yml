@@ -9,10 +9,10 @@ on:
 jobs:
   cypress-test:
     name: Run on Chrome 83
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     container: cypress/browsers:node12.18.0-chrome83-ff77
     steps:
-      - uses: actions/checkout@v/
+      - uses: actions/checkout@v2
       - name: Install cypress and verify
         run: |
           npm ci
@@ -20,7 +20,7 @@ jobs:
           $(npm bin)/cypress cache list
           $(npm bin)/cypress verify
       - name: Run Cypress tests
-        run: $(npm bin)/cypress run
+        run: npm run test:chrome
         continue-on-error: true
       - name: Copy test execution videos
         run: |
